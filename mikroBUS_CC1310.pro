@@ -1,4 +1,4 @@
-update=12/2/2015 11:04:09 PM
+update=12/5/2015 11:10:32 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=Z:/Engineering/KiCAD_Libraries/Schematic
+LibDir=C:/Engineering/KiCAD_Libraries/Schematic
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -76,5 +78,13 @@ LibName46=Test_Point
 LibName47=TI_Luminary
 LibName48=TI_MSP430
 LibName49=Transducer
-[general]
+[schematic_editor]
 version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=40
