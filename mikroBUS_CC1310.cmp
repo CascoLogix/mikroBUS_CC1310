@@ -1,59 +1,331 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-25 BZR 5536)-product   date = mer. 08 avril 2015 09:59:14 UTC
+Cmp-Mod V01 Created by PcbNew   date = 12/22/2015 7:30:15 PM
 
 BeginCmp
-TimeStamp = /5517C2C1;
-Reference = P1;
-ValeurCmp = Power;
-IdModule  = Socket_Arduino_Uno:Socket_Strip_Arduino_1x08;
+TimeStamp = 5664943E
+Path = /566368B1
+Reference = J2;
+ValeurCmp = SMA;
+IdModule  = Connector:SMA_EDGE;
 EndCmp
 
 BeginCmp
-TimeStamp = /5517C323;
+TimeStamp = 56649423
+Path = /56641F17
+Reference = C23;
+ValeurCmp = DNP;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 561150BC
+Path = /560DC5B3
 Reference = P2;
-ValeurCmp = Analog;
-IdModule  = Socket_Arduino_Uno:Socket_Strip_Arduino_1x06;
+ValeurCmp = HEADER_M_2.54MM_1R8P_ST_AU_PTH;
+IdModule  = Header:HEADER_M_2.54MM_1R8P_ST_AU_PTH;
 EndCmp
 
 BeginCmp
-TimeStamp = /5517C46C;
+TimeStamp = 561150A0
+Path = /560DC55D
+Reference = P1;
+ValeurCmp = HEADER_M_2.54MM_1R8P_ST_AU_PTH;
+IdModule  = Header:HEADER_M_2.54MM_1R8P_ST_AU_PTH;
+EndCmp
+
+BeginCmp
+TimeStamp = 562DB7DC
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Logo:mikroBUS_Small;
+EndCmp
+
+BeginCmp
+TimeStamp = 565FE259
+Path = /5665BD8B
+Reference = U1;
+ValeurCmp = CC1310F128RGZ;
+IdModule  = Active:VQFN-48;
+EndCmp
+
+BeginCmp
+TimeStamp = 566493B1
+Path = /56640535
+Reference = C4;
+ValeurCmp = 22uF;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 56649405
+Path = /5664C969
+Reference = C18;
+ValeurCmp = 22uF;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 56649437
+Path = /56635E88
+Reference = J1;
+ValeurCmp = u.FL;
+IdModule  = Connector:U.FL-R-SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = 5664947A
+Path = /56631807
+Reference = Y1;
+ValeurCmp = 32.768kHz;
+IdModule  = Passive:FC_135;
+EndCmp
+
+BeginCmp
+TimeStamp = 56649482
+Path = /5663BBC8
+Reference = Y2;
+ValeurCmp = 24MHz;
+IdModule  = Passive:SX_3225;
+EndCmp
+
+BeginCmp
+TimeStamp = 5664A1F3
+Path = /56643190
+Reference = FL1;
+ValeurCmp = BLM18HE152SN1;
+IdModule  = Passive:0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5664A1F8
+Path = /5663575D
+Reference = L1;
+ValeurCmp = 27nH;
+IdModule  = Passive:0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5664A1FD
+Path = /56640365
+Reference = L2;
+ValeurCmp = 6.8uH;
+IdModule  = Passive:0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 5664A202
+Path = /5663575A
+Reference = L4;
+ValeurCmp = 7.5nH;
+IdModule  = Passive:0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5664A207
+Path = /5663575E
+Reference = L5;
+ValeurCmp = 7.5nH;
+IdModule  = Passive:0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5664A20C
+Path = /5663575F
+Reference = L6;
+ValeurCmp = 6.8nH;
+IdModule  = Passive:0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5664A211
+Path = /56635761
+Reference = L7;
+ValeurCmp = 6.8nH;
+IdModule  = Passive:0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5664B8A9
+Path = /5664C254
+Reference = C5;
+ValeurCmp = DNP;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 5664BD59
+Path = /566316FB
+Reference = R1;
+ValeurCmp = 100k;
+IdModule  = Passive:0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5664946E
+Path = /5664F91A
 Reference = P3;
-ValeurCmp = Digital;
-IdModule  = Socket_Arduino_Uno:Socket_Strip_Arduino_1x10;
+ValeurCmp = JTAG;
+IdModule  = Header:HEADER_50MIL_2R10P_SMT;
 EndCmp
 
 BeginCmp
-TimeStamp = /5517C366;
-Reference = P4;
-ValeurCmp = Digital;
-IdModule  = Socket_Arduino_Uno:Socket_Strip_Arduino_1x08;
+TimeStamp = 566493D5
+Path = /5663575C
+Reference = C10;
+ValeurCmp = 100pF;
+IdModule  = Passive:0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /551BBC06;
-Reference = P5;
-ValeurCmp = CONN_1;
-IdModule  = Socket_Arduino_Uno:Arduino_1pin;
+TimeStamp = 566493C3
+Path = /56635764
+Reference = C7;
+ValeurCmp = 3.6pF;
+IdModule  = Passive:0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /551BBD10;
-Reference = P6;
-ValeurCmp = CONN_1;
-IdModule  = Socket_Arduino_Uno:Arduino_1pin;
+TimeStamp = 566493DB
+Path = /56635769
+Reference = C11;
+ValeurCmp = 3.6pF;
+IdModule  = Passive:0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /551BBD30;
-Reference = P7;
-ValeurCmp = CONN_1;
-IdModule  = Socket_Arduino_Uno:Arduino_1pin;
+TimeStamp = 566493ED
+Path = /56635759
+Reference = C14;
+ValeurCmp = 2.7pF;
+IdModule  = Passive:0402;
 EndCmp
 
 BeginCmp
-TimeStamp = /551BBD52;
-Reference = P8;
-ValeurCmp = CONN_1;
-IdModule  = Socket_Arduino_Uno:Arduino_1pin;
+TimeStamp = 5664940B
+Path = /56635760
+Reference = C19;
+ValeurCmp = 6.2pF;
+IdModule  = Passive:0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5664941D
+Path = /56635762
+Reference = C22;
+ValeurCmp = 3pF;
+IdModule  = Passive:0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 56649429
+Path = /56635763
+Reference = C24;
+ValeurCmp = 100pF;
+IdModule  = Passive:0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 56649417
+Path = /56641F11
+Reference = C21;
+ValeurCmp = 100nF;
+IdModule  = Passive:0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 56649411
+Path = /5663BD71
+Reference = C20;
+ValeurCmp = DNP;
+IdModule  = Passive:0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 566493FF
+Path = /56641E2B
+Reference = C17;
+ValeurCmp = 100nF;
+IdModule  = Passive:0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 566493F9
+Path = /56641174
+Reference = C16;
+ValeurCmp = DNP;
+IdModule  = Passive:0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 566493F3
+Path = /5663BD6B
+Reference = C15;
+ValeurCmp = DNP;
+IdModule  = Passive:0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 566493E7
+Path = /56641E25
+Reference = C13;
+ValeurCmp = 100nF;
+IdModule  = Passive:0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 566493E1
+Path = /566410EB
+Reference = C12;
+ValeurCmp = 100nF;
+IdModule  = Passive:0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 566493CF
+Path = /56641E1F
+Reference = C9;
+ValeurCmp = 100nF;
+IdModule  = Passive:0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 566493C9
+Path = /56640D85
+Reference = C8;
+ValeurCmp = 100nF;
+IdModule  = Passive:0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 566493BD
+Path = /56636E92
+Reference = C6;
+ValeurCmp = 12pF;
+IdModule  = Passive:0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 566493AB
+Path = /56643BBC
+Reference = C3;
+ValeurCmp = 100nF;
+IdModule  = Passive:0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 566493A5
+Path = /566592DD
+Reference = C2;
+ValeurCmp = 1uF;
+IdModule  = Passive:0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 5664939F
+Path = /5663175F
+Reference = C1;
+ValeurCmp = 12pF;
+IdModule  = Passive:0402;
 EndCmp
 
 EndListe
